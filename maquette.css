@@ -1,7 +1,9 @@
 body{
-  /*background-image: url("img/bg.jpg");
+  background-image: url("img/bg.jpg");
   background-repeat: repeat-y;
-  background-position: center;*/
+  background-position: center;
+  background-size: cover;
+  border: 5px green solid;
 }
 
 .container{
@@ -40,13 +42,11 @@ body{
 }
 
 .title{
-  background-image: url("img/title.jpg");
-  /*height: 300px;*/
+  /*background-image: url("img/title.jpg");*/
+  width: 510px;
   background-repeat: no-repeat;
-  border : green 5px solid;
+  /*border : green 5px solid;*/
   background-size: contain;
-  background-position: right;
-  width: 200px;
 }
 
 h2.fat{
@@ -93,4 +93,10 @@ p{
 #imgdroite{
   float: right;
   margin-left: 10px;
+}
+
+blockquote{
+  border-top: 2px solid yellow;
+  border-bottom: 2px solid yellow;
+  background-color: #202020;
 }
