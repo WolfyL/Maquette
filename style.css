@@ -1,6 +1,8 @@
     body {
         color: #262626;
+
         font-family: circular, sans-serif;
+
     }
 
     .logo {}
@@ -15,6 +17,7 @@
     }
 
     h1 {
+
         font-size: 48px;
         color: #262626;
         font-weight: lighter;
@@ -66,6 +69,7 @@ padding-bottom: 18px;
     }
 
 
+
     .soustitretof {
         text-align: center;
     }
@@ -76,9 +80,11 @@ padding-bottom: 18px;
     }
 
     p {
+
         font-size: 12px;
         text-align: justify;
         padding: 20px 10px 20px 10px;
+
     }
 
     #fix{
@@ -120,5 +126,7 @@ padding-bottom: 18px;
 
     footer{
       border-top: grey 1px solid;
+
       margin-bottom: 30px;
+
     }
