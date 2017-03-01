@@ -1,9 +1,8 @@
 body{
   background-image: url("img/bg.jpg");
-  background-repeat: repeat-y;
-  background-position: center;
-  background-size: cover;
-  border: 5px green solid;
+  background-repeat: repeat;
+  background-size: contain;;
+  border: green 5px solid;
 }
 
 .container{
@@ -88,15 +87,20 @@ p{
 #imggauche{
   float: left;
   margin-right: 10px;
+  padding: 2px;
+  border: 2px solid yellow;
 }
 
 #imgdroite{
   float: right;
   margin-left: 10px;
+  padding: 2px;
+  border: 2px solid yellow;
 }
 
 blockquote{
   border-top: 2px solid yellow;
   border-bottom: 2px solid yellow;
+  border-left: 0!important;
   background-color: #202020;
 }
