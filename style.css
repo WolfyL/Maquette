@@ -1,74 +1,54 @@
     body {
         color: #262626;
-
         font-family: circular, sans-serif;
-
     }
 
-    .logo {}
-
-    .nav navbar-nav navbar-right {
-        text-align: right;
-        color: black;
-    }
-
-    .navbar {
+    .fond {
         background-color: white;
     }
 
-    h1 {
+    .place {
+        padding-top: 69px;
+    }
 
+    #text-color a {
+        color: #262626;
+    }
+
+    h1 {
         font-size: 48px;
         color: #262626;
         font-weight: lighter;
     }
 
     .boldtitre {
-
-      color: red;
-      font-weight: bold;
-
+        color: green;
+        font-weight: bold;
     }
 
-.img3 {
+    .img3 {
+        height: 233px;
+        width: 350px;
+    }
 
-  height: 233px;
-  width: 350px;
+    .img4 {
+        height: 387px;
+        width: 259px;
+    }
 
-
-}
-
-
-
-.img4 {
-
-height: 387px;
-width: 259px;
-
-}
     .price {
-
-      font-weight: bold;
-
+        font-weight: bold;
     }
 
-
-h3 {
-
-font-size: 15px;
-padding-bottom: 18px;
-
-}
-
-
+    h3 {
+        font-size: 18px;
+        padding: 20px 0px 18px 0px;
+    }
 
     h4 {
-
-      font-size: 18px;
-      font-weight: bold;
+        font-size: 18px;
+        font-weight: bold;
     }
-
-
 
     .soustitretof {
         text-align: center;
@@ -80,15 +60,13 @@ padding-bottom: 18px;
     }
 
     p {
-
         font-size: 12px;
         text-align: justify;
         padding: 20px 10px 20px 10px;
-
     }
 
-    #fix{
-      width: 500px;
+    #fix {
+        width: 500px;
     }
 
     #fakefooter {
@@ -120,13 +98,36 @@ padding-bottom: 18px;
     ul {
         list-style: none;
     }
-    .centre{
-      margin-top: 20px;
+
+    .centre {
+        margin-top: 20px;
     }
 
-    footer{
-      border-top: grey 1px solid;
+    .ligne {
+        height: 1px;
+        background-color: lightgrey;
+        margin-bottom: 50px;
+    }
 
-      margin-bottom: 30px;
+    
+    /*champ à remplir fait par David bravo*/
 
+    .borderz {
+        border-style: solid;
+        border-color: #BDBDBD;
+        border-width: 1px;
+        box-shadow: -1px 2px 3px 0px lightgrey;
+    }
+
+    .resa {
+        float: left;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .form-control {
+        border: 0;
+        box-shadow: none;
+        border-bottom: solid green 1px;
+        margin-bottom: 5px;
     }
