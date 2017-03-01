@@ -1,0 +1,71 @@
+body{
+  /*background-image: url("img/bg.jpg");
+  background-repeat: repeat-y;
+  background-position: center;*/
+}
+
+.container{
+  border : red 5px solid;
+  background-image: url("img/full.jpg");
+  background-repeat: repeat-y;
+  background-size: contain;
+  color: white;
+  font-family: Arial;
+}
+
+.footer_paragraph{
+  border-left: 5px solid yellow;
+}
+
+
+.fondrose{
+  /*background-image: url("img/full.jpg");*/
+  background-repeat: repeat-y;
+  background-position: center;
+  border : pink 3px solid;
+  /*height: 100%;*/
+}
+
+
+.middle{
+  background-image: url("img/middle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-repeat: repeat-y;*/
+  height: 1320px;
+  /*background-position: center;*/
+  /*border : blue 3px solid;*/
+}
+
+/*.title{
+  background-image: url("img/title.jpg");
+  height: 200px;
+  background-repeat: no-repeat;
+  border : green 5px solid;
+}*/
+
+h2.fat{
+  border-top: 3px yellow solid;
+  font-weight: 900;
+}
+
+
+.couleur h4 {
+  background-color: yellow;
+  color: black;
+}
+h4.fat{
+  font-weight: 900;
+}
+
+.cssgras{
+  font-weight: bold;
+}
+
+.cssjaune{
+  color:yellow;
+}
+
+.cssitalique{
+  font-style: italic;
+}
