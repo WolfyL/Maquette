@@ -1,19 +1,8 @@
-    body {
+body {
         color: #262626;
         font-family: circular, sans-serif;
     }
-
-    .fond {
-        background-color: white;
-    }
-
-    .place {
-        padding-top: 69px;
-    }
-
-    #text-color a {
-        color: #262626;
-    }
+    /*Styles textes*/
 
     h1 {
         font-size: 48px;
@@ -21,9 +10,48 @@
         font-weight: lighter;
     }
 
+    h2 {
+        font-size: 18px;
+        padding: 20px 0px 18px 0px;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    p {
+        font-size: 12px;
+        text-align: justify;
+        padding: 20px 10px 20px 10px;
+    }
+
+    .price {
+        font-weight: bold;
+    }
+
+    .soustitretof {
+        text-align: center;
+    }
+
     .boldtitre {
         color: green;
         font-weight: bold;
+    }
+
+    #text-color a {
+        color: #262626;
+    }
+    /*style images*/
+
+    img {
+        display: block;
+        margin: auto;
+        border: white solid 5px;
     }
 
     .img3 {
@@ -36,48 +64,12 @@
         width: 259px;
     }
 
-    .price {
-        font-weight: bold;
+    .glyphicon.glyphicon-arrow-right {
+        font-size: 30px;
     }
 
-    h3 {
-        font-size: 18px;
-        padding: 20px 0px 18px 0px;
-    }
-
-    h4 {
-        font-size: 18px;
-        font-weight: bold;
-    }
-
-    .soustitretof {
-        text-align: center;
-    }
-
-    img {
-        display: block;
-        margin: auto;
-        border: white solid 5px;
-    }
-
-    p {
-        font-size: 12px;
-        text-align: justify;
-        text-align-last: center;
-        padding: 20px 10px 20px 10px;
-    }
-
-    #fix {
-        width: 500px;
-    }
-
-    #fakefooter {
-        border-top: 1px grey solid;
-        border-bottom: 1px grey solid;
-    }
-
-    .stick {
-        width: 30%;
+    .col-xs-1.fleche {
+        margin-right: 25px;
     }
     /*scrollable-menu raccourci la taille du menu et le rend scrollable.*/
 
@@ -87,32 +79,15 @@
         overflow-x: hidden;
     }
 
-    .social {
-        height: 20px;
-        width: 20px;
-    }
-
     .inline ul li {
         display: inline;
-        list-style: none;
-    }
-
-    ul {
         list-style: none;
     }
 
     .centre {
         margin-top: 20px;
     }
-
-    .ligne {
-        height: 1px;
-        background-color: lightgrey;
-        margin-bottom: 50px;
-    }
-
-
-    /*champ à remplir fait par David bravo*/
+    /*Style form*/
 
     .borderz {
         border-style: solid;
@@ -133,3 +108,40 @@
         border-bottom: solid green 1px;
         margin-bottom: 5px;
     }
+    /*Style pictos / elements graphiques*/
+
+    .ligne {
+        height: 1px;
+        background-color: lightgrey;
+        margin-bottom: 50px;
+    }
+
+    .social {
+        height: 30px;
+        width: 30px;
+        margin-top: 30px;
+    }
+    /*Style other*/
+
+    .fond {
+        background-color: white;
+    }
+
+    .place {
+        padding-top: 69px;
+    }
+    /*#fix {
+    width: 500px;*/
+}
+.stick {
+    width: 30%;
+    /*#fakefooter {
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;*/
+}
+#searchbar {
+    display: none;
+}
+#size {
+    width: 50vw;
+}

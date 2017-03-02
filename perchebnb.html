@@ -5,19 +5,18 @@
 <head>
     <meta charset="utf-8" />
     <title>perchebnb</title>
-    <link href="bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="style-770px.css" rel="stylesheet">
+    <link href="style-1200px.css" rel="stylesheet">
+
 
 </head>
 
 <body>
     <nav class="navbar navbar-fixed-top fond">
         <div class="container-fluid">
-
-            <div class="navbar-header">
-                <img class="logo" src="img/perchebnb.svg" alt="" width="60" height="60">
-            </div>
-
+            <div class="navbar-header"> <img class="logo" src="img/perchebnb-green.svg" alt="" width="60" height="60"> </div>
             <div class="collapse navbar-collapse" id="text-color">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Devenez hôte</a></li>
@@ -25,6 +24,9 @@
                     <li><a href="#">Inscription</a></li>
                     <li><a href="#">Connexion</a></li>
                 </ul>
+                <form class="navbar-form navbar-right inline-form" id="searchbar">
+                    <div class="form-group"> <input type="search" class="input-sm form-control" placeholder="Recherche" id="size"> </div>
+                </form>
             </div>
         </div>
     </nav>
@@ -32,7 +34,7 @@
     <div class="container place">
         <div class="row">
 
-            <div class="col-xs-12 col-sm-8 col-md-10 col-lg-12">
+            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-12">
                 <h1><span class="boldtitre">Perchebnb</span> Réservez des logements uniques et vivez là-bas comme des locaux.</h1>
 
             </div>
@@ -40,43 +42,55 @@
     </div>
 
     <div class="container">
-        <div class="row">
+          <div class="row">
 
-            <div class="col-lg-4 borderz">
-                <div>
-                    <p class="resa">Où ?</p>
-                </div>
-                <div>
-                    <input type="text" class="form-control" placeholder="Destination, Ville, Adresse">
-                </div>
-            </div>
+              <div class="col-lg-4 borderz">
+                  <div>
+                      <p class="resa">Où ?</p>
+                  </div>
+                  <div>
+                      <input type="text" class="form-control" placeholder="Destination, Ville, Adresse">
+                  </div>
+              </div>
 
 
-            <div class="col-lg-4 borderz">
-                <div>
-                    <p class="resa">Quand ?</p>
-                </div>
-                <div>
-                    <input type="date" class="form-control" placeholder="Date">
-                </div>
-            </div>
+              <div class="col-lg-4 borderz">
+                  <div class="row">
+                      <p class="resa">Quand ?</p>
+                  </div>
+                  <div>
+                      <div class="row">
+                          <div class="col-xs-5">
+                              <input type="date" class="form-control" placeholder="Arrivée">
+                          </div>
 
-            <div class="col-lg-4 borderz">
-                <div>
-                    <p class="resa">Voyageurs ?</p>
-                </div>
-                <div>
-                    <input type="number" class="form-control" placeholder="1 voyageur">
-                </div>
+  <div class="col-xs-1 fleche">
+  <span class="glyphicon glyphicon-arrow-right"></span>
+  </div>
 
-            </div>
-        </div>
+  <div class="col-xs-5">
+      <input type="date" class="form-control" placeholder="Départ">
+  </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 borderz">
+                  <div>
+                      <p class="resa">Voyageurs ?</p>
+                  </div>
+                  <div>
+                      <input type="number" class="form-control" placeholder="1 voyageur">
+                  </div>
+
+              </div>
+  </div>
 
         <!-- EXPERIENCE 1 -->
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                    <h3>Les expériences les plus populaires</h3>
+                    <h2>Les expériences les plus populaires</h2>
                 </div>
             </div>
         </div>
@@ -84,16 +98,16 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
 
-                      <img class="img4" src="img/populaire/experience1.1.jpg" alt="">
+                    <img class="img4" src="img/populaire/experience1.1.jpg" alt="">
                     <p><span class="price">Gratuit</span> - Circuit vélo<br />LA FERTE BERNARD</p>
 
                 </div>
 
 
-                <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
 
                     <img class="img4" src="img/populaire/experience2.1.jpg" alt="">
@@ -101,11 +115,11 @@
 
                 </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
 
                     <img class="img4" src="img/populaire/experience3.1.jpg" alt="">
-                    <p><span class="price">12€</span> - 1 heure - Atelier poterie Françoise<br />AUVRAY COURCIVAL</p>
+                    <p><span class="price">21€</span> - 1 heure - Atelier poterie Françoise<br />AUVRAY COURCIVAL</p>
 
 
                 </div>
@@ -127,7 +141,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                    <h3>Nos Logements</h3>
+                    <h2>Nos Logements</h2>
                 </div>
             </div>
         </div>
@@ -138,7 +152,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/logement/logement1.1.jpg" alt="">
+                    <img class="img3" src="img/logement/logement1.jpeg" alt="">
                     <p><span class="price">64€</span> / nuit - Chambre - 1 lit pour 2 personnes<br /> HOTEL BALLADINS - CHERRE</p>
 
                 </div>
@@ -146,7 +160,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/logement/logement2.1.jpg" alt="">
+                    <img class="img3" src="img/logement/logement2.jpeg" alt="">
                     <p><span class="price">56€</span> / nuit - Chambre - 1 lit pour 2 personnes<br /> HOTEL LES SITTELLES - MONTFORT LE GESNOIS</p>
 
                 </div>
@@ -154,7 +168,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/logement/logement3.1.jpg" alt="">
+                    <img class="img3" src="img/logement/logement3.jpeg" alt="">
                     <p><span class="price">65€</span> / nuit - Chambre - 1 lit pour 2 personnes<br /> LE PRESSOIR HOTEL - SAINT CALAIS</p>
 
 
@@ -168,7 +182,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                    <h3>Les expériences les plus populaires</h3>
+                    <h2>Les expériences les plus populaires</h2>
                 </div>
             </div>
         </div>
@@ -233,7 +247,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                    <h3>Evenements Locaux</h3>
+                    <h2>Evenements Locaux</h2>
                 </div>
             </div>
         </div>
@@ -244,7 +258,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/event/event1.1.jpg" alt="">
+                    <img class="img3" src="img/event/event1.jpeg" alt="">
                     <p><span class="price">Gratuit</span> - Exposition Talents d'Art - SAINT-CALAIS<br /> Du 24/02/2017 au 26/02/2017</p>
 
                 </div>
@@ -252,16 +266,16 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/event/event2.1.jpg" alt="">
-                    <p><span class="price">46€</span> - 2h30 - Concert-Conférence<br />"BEETHOVEN ET LE PIANO"<br />Par Pascale LANSQUET et Marie-Pierre BOUT<br /> MONTMIRAIL - 04/03/2017</p>
+                    <img class="img3" src="img/event/event2.jpeg" alt="">
+                    <p><span class="price">46€</span> - 2h20 - Concert-Conférence<br />"BEETHOVEN ET LE PIANO"<br />Par Pascale LANSQUET et Marie-Pierre BOUT<br /> MONTMIRAIL - 04/03/2017</p>
 
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/event/event3.1.jpg" alt="">
-                    <p><span class="price">12€</span> - 1h30 - "LE CABARET BLANCHE" Thé&acirc;tre musical<br />LA FERTE BERNARD - 09/03/2017</p>
+                    <img class="img3" src="img/event/event3.jpeg" alt="">
+                    <p><span class="price">12€</span> - 1h20 - "LE CABARET BLANCHE" Thé&acirc;tre musical<br />LA FERTE BERNARD - 09/03/2017</p>
 
 
                 </div>
@@ -274,7 +288,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                    <h3>Experiences : Sports et Loisirs</h3>
+                    <h2>Experiences : Sports et Loisirs</h2>
                 </div>
             </div>
         </div>
@@ -303,7 +317,7 @@
 
 
                     <img class="img4" src="img/sport/sp3.1.jpg" alt="">
-                    <p><span class="price">18€</span> - 1h30 - Canoe Kayak Club Fertois<br />LA FERTE BERNARD</p>
+                    <p><span class="price">18€</span> - 1h20 - Canoe Kayak Club Fertois<br />LA FERTE BERNARD</p>
 
                 </div>
 
@@ -324,7 +338,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                    <h3>Experiences : Nature</h3>
+                    <h2>Experiences : Nature</h2>
                 </div>
             </div>
         </div>
@@ -374,7 +388,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                    <h3>Experiences : Restauration</h3>
+                    <h2>Experiences : Restauration</h2>
                 </div>
             </div>
         </div>
@@ -385,21 +399,24 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/restauration/restauration1.1.jpg" alt=""> <p>Hotel de la Forêt<br />SENONCHES</p>
+                    <img class="img3" src="img/restauration/restauration1.jpg" alt="">
+                    <p>Hotel de la Forêt<br />SENONCHES</p>
 
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/restauration/restauration2.1.jpg" alt=""> <p>La Maison d'Horbé<br /> LA PERRIERE<br /></p>
+                    <img class="img3" src="img/restauration/restauration2.jpg" alt="">
+                    <p>La Maison d'Horbé<br /> LA PERRIERE<br /></p>
 
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/restauration/restauration3.1.jpg" alt=""> <p>Le Montligeon<br /> LA CHAPELLE-MONTLIGEON</p>
+                    <img class="img3" src="img/restauration/restauration3.jpg" alt="">
+                    <p>Le Montligeon<br /> LA CHAPELLE-MONTLIGEON</p>
 
                 </div>
 
@@ -414,7 +431,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-9">
-                    <h3>Questions courantes</h3>
+                    <h2>Questions courantes</h2>
                 </div>
             </div>
         </div>
@@ -424,17 +441,17 @@
 
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
-                    <h4>Qu'est-ce qu'il y a dans une annonce ?</h4>
+                    <h3>Qu'est-ce qu'il y a dans une annonce ?</h3>
                     <p>Vous remplissez une description, prenez et téléchargez des photos, puis définissez un prix. Votre annonce permet aux voyageurs d'avoir une idée précise de votre logement.</p>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <h4>Qui peut réserver ?</h4>
+                    <h3>Qui peut réserver ?</h3>
                     <p>Vous définissez la disponibilité et le règlement intérieur de votre logement. Les contrôles réservés à l'hôte et les paramètres du calendrier peuvent faciliter l'hébergement.</p>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <h4>Nous sommes là pour vous aider</h4>
+                    <h3>Nous sommes là pour vous aider</h3>
                     <p>Airbnb vous aide à préparer votre logement et à choisir un prix, mais aussi à bien comprendre vos responsabilités aux termes de la législation locale : nous avons les ressources et les outils qu'il vous faut.</p>
 
                 </div>
@@ -493,7 +510,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <h4>Perchebnb</h4>
+                        <h3>Perchebnb</h3>
                         <ul>
                             <li>A propos</li>
                             <li>Carrières</li>
@@ -505,7 +522,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <h4>Découvrir</h4>
+                        <h3>Découvrir</h3>
                         <ul>
                             <li>Confiance et sécurité</li>
                             <li>Crédit voyage</li>
@@ -516,7 +533,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <h4>Hébergement</h4>
+                        <h3>Hébergement</h3>
                         <ul>
                             <li>Pourquoi être hôte</li>
                             <li>Hospitalité</li>
@@ -536,34 +553,35 @@
                     <p>Perchebnb, Inc. </p>
                 </div>
                 <div class="col-xs-9">
-                    <div class="row">
-                        <div class="col-xs-offset-2 col-xs-4 centre">
-                            <p id="fix">Conditions générales et confidentialité. Plan du site.</p>
-                        </div>
-                        <!-- Picto lien réseaux sociaux? -->
-                        <div class=" pull-right">
-                            <div class="col-xs-2 stick">
 
-                                <a href="https://facebook.com"><img class="social" src="img/fb.svg" alt="picto facebook" /></a>
-                            </div>
-                            <div class="col-xs-2 stick">
-                                <a href="http://twitter.com"><img class="social" src="img/twitter.svg" alt="picto facebook" /></a>
-                            </div>
-                            <div class="col-xs-2 stick">
-                                <a href="http://instagram.com"><img class="social" src="img/insta.svg" alt="picto facebook" /></a>
-                            </div>
+                    <div class="col-xs-9 centre">
+                        <p>Conditions générales et confidentialité. Plan du site.</p>
+                    </div>
+                    <!-- Picto lien réseaux sociaux? -->
+                    <div class=" pull-right">
+                        <div class="col-xs-1 stick">
+
+                            <a href="https://facebook.com"><img class="social" src="img/fb.svg" alt="picto facebook" /></a>
+                        </div>
+                        <div class="col-xs-1 stick">
+                            <a href="http://twitter.com"><img class="social" src="img/twitter.svg" alt="picto facebook" /></a>
+                        </div>
+                        <div class="col-xs-1 stick">
+                            <a href="http://instagram.com"><img class="social" src="img/insta.svg" alt="picto facebook" /></a>
                         </div>
                     </div>
                 </div>
 
+
             </div>
         </div>
+        </footer>
     </div>
-    </footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="header.js"></script>
 
 
 </body>
