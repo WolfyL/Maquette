@@ -14,21 +14,41 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-fixed-top fond">
+    <nav class="navbar navbar-default navbar-fixed-top fond">
         <div class="container-fluid">
-            <div class="navbar-header"> <img class="logo" src="img/perchebnb-green.svg" alt="" width="60" height="60"> </div>
-            <div class="collapse navbar-collapse" id="text-color">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <img src="img/perchebnb-green.svg" alt="" width="60" height="60"> </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Devenez hôte</a></li>
                     <li><a href="#">Aide</a></li>
                     <li><a href="#">Inscription</a></li>
                     <li><a href="#">Connexion</a></li>
+                    <li class="dropdown">
+                        <ul class="dropdown-menu"> </ul>
+                    </li>
                 </ul>
                 <form class="navbar-form navbar-right inline-form" id="searchbar">
                     <div class="form-group"> <input type="search" class="input-sm form-control" placeholder="Recherche" id="size"> </div>
                 </form>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
     </nav>
 
     <div class="container place">
@@ -42,49 +62,61 @@
     </div>
 
     <div class="container">
-          <div class="row">
+        <div class="row">
 
-              <div class="col-lg-4 borderz">
-                  <div>
-                      <p class="resa">Où ?</p>
-                  </div>
-                  <div>
-                      <input type="text" class="form-control" placeholder="Destination, Ville, Adresse">
-                  </div>
-              </div>
+            <div class="col-lg-4 borderz">
+                <div>
+                    <p class="resa">Où ?</p>
+                </div>
+                <div>
+                    <input type="text" class="form-control" placeholder="Destination, Ville, Adresse">
+                </div>
+            </div>
 
 
-              <div class="col-lg-4 borderz">
-                  <div class="row">
-                      <p class="resa">Quand ?</p>
-                  </div>
-                  <div>
-                      <div class="row">
-                          <div class="col-xs-5">
-                              <input type="date" class="form-control" placeholder="Arrivée">
-                          </div>
+            <div class="col-lg-4 borderz">
+                <div class="row">
+                    <p class="resa">Quand ?</p>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-xs-5">
+                            <input type="date" class="form-control" placeholder="Arrivée">
+                        </div>
 
-  <div class="col-xs-1 fleche">
-  <span class="glyphicon glyphicon-arrow-right"></span>
-  </div>
+                        <div class="col-xs-1 fleche">
+                            <span class="glyphicon glyphicon-arrow-right"></span>
+                        </div>
 
-  <div class="col-xs-5">
-      <input type="date" class="form-control" placeholder="Départ">
-  </div>
-                      </div>
-                  </div>
-              </div>
+                        <div class="col-xs-5">
+                            <input type="date" class="form-control" placeholder="Départ">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-              <div class="col-lg-4 borderz">
-                  <div>
-                      <p class="resa">Voyageurs ?</p>
-                  </div>
-                  <div>
-                      <input type="number" class="form-control" placeholder="1 voyageur">
-                  </div>
+            <div class="col-lg-4 borderz">
 
-              </div>
-  </div>
+                <div class="row">
+
+
+
+                    <div class="col-xs-6">
+                        <p class="resa">Voyageurs ?</p>
+
+
+                        <div>
+                            <input type="number" class="form-control" placeholder="1 voyageur">
+                        </div>
+
+                    </div>
+
+                    <div class="col-xs-6">
+                        <a class="btn btn-custom" href="#" role="button">Rechercher</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- EXPERIENCE 1 -->
         <div class="container">
@@ -101,7 +133,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
 
-                    <img class="img4" src="img/populaire/experience1.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/populaire/experience1.1.jpg" alt=""></a>
                     <p><span class="price">Gratuit</span> - Circuit vélo<br />LA FERTE BERNARD</p>
 
                 </div>
@@ -110,7 +142,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
 
-                    <img class="img4" src="img/populaire/experience2.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/populaire/experience2.1.jpg" alt=""></a>
                     <p><span class="price">Gratuit</span> - Randonnée<br />Batir à Chaux et à sable<br />BRIOSNE LES SABLES</p>
 
                 </div>
@@ -118,7 +150,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 
 
-                    <img class="img4" src="img/populaire/experience3.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/populaire/experience3.1.jpg" alt=""></a>
                     <p><span class="price">21€</span> - 1 heure - Atelier poterie Françoise<br />AUVRAY COURCIVAL</p>
 
 
@@ -127,7 +159,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
 
 
-                    <img class="img4" src="img/populaire/experience4.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/populaire/experience4.1.jpg" alt=""></a>
                     <p><span class="price">36€</span> - 1 heure - Aurel'Horse<br />COURCEMONT</p>
 
                 </div>
@@ -152,7 +184,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/logement/logement1.jpeg" alt="">
+                    <a href="#"><img class="img3" src="img/logement/logement1.jpeg" alt=""></a>
                     <p><span class="price">64€</span> / nuit - Chambre - 1 lit pour 2 personnes<br /> HOTEL BALLADINS - CHERRE</p>
 
                 </div>
@@ -160,7 +192,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/logement/logement2.jpeg" alt="">
+                    <a href="#"><img class="img3" src="img/logement/logement2.jpeg" alt=""></a>
                     <p><span class="price">56€</span> / nuit - Chambre - 1 lit pour 2 personnes<br /> HOTEL LES SITTELLES - MONTFORT LE GESNOIS</p>
 
                 </div>
@@ -168,7 +200,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/logement/logement3.jpeg" alt="">
+                    <a href="#"><img class="img3" src="img/logement/logement3.jpeg" alt=""></a>
                     <p><span class="price">65€</span> / nuit - Chambre - 1 lit pour 2 personnes<br /> LE PRESSOIR HOTEL - SAINT CALAIS</p>
 
 
@@ -194,7 +226,7 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-2">
 
-                    <img class="img/col-md-2-1.jpg" src="img/la-chevalerie.jpg" alt="">
+                    <a href="#"><img class="img/col-md-2-1.jpg" src="img/la-chevalerie.jpg" alt=""></a>
                     <p>La Chevalerie</p>
 
                 </div>
@@ -202,13 +234,13 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-2">
 
-                    <img class="img/col-md-2-2.jpg" src="img/la-simoniere.jpg" alt="">
+                    <a href="#"><img class="img/col-md-2-2.jpg" src="img/la-simoniere.jpg" alt=""></a>
                     <p>La Simonerie</p>
 
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-2">
 
-                    <img class="img/col-md-2-1.jpg" src="img/le-verger.jpg" alt="">
+                    <a href="#"><img class="img/col-md-2-1.jpg" src="img/le-verger.jpg" alt=""></a>
                     <p>Le Vergé</p>
 
                 </div>
@@ -216,13 +248,13 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-2">
 
-                    <img class="img/col-md-2-2.jpg" src="img/manoir-de-lormarin.jpg" alt="">
+                    <a href="#"><img class="img/col-md-2-2.jpg" src="img/manoir-de-lormarin.jpg" alt=""></a>
                     <p>Manoir de Lormarin</p>
 
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-2">
 
-                    <img class="img/col-md-2-1.jpg" src="img/mortagne-au-perche.jpg" alt="">
+                    <a href="#"><img class="img/col-md-2-1.jpg" src="img/mortagne-au-perche.jpg" alt=""></a>
                     <p>Mortagne au Perche</p>
 
                 </div>
@@ -231,7 +263,7 @@
 
                 <div class="col-xs-12 col-sm-4 col-md-2">
 
-                    <img class="img/col-md-2-2.jpg" src="img/stgermaindeloise.jpg" alt="">
+                    <a href="#"><img class="img/col-md-2-2.jpg" src="img/stgermaindeloise.jpg" alt=""></a>
                     <p>St Germain de Loisé</p>
 
                 </div>
@@ -258,7 +290,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/event/event1.jpeg" alt="">
+                    <a href="#"><img class="img3" src="img/event/event1.jpeg" alt=""></a>
                     <p><span class="price">Gratuit</span> - Exposition Talents d'Art - SAINT-CALAIS<br /> Du 24/02/2017 au 26/02/2017</p>
 
                 </div>
@@ -266,7 +298,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/event/event2.jpeg" alt="">
+                    <a href="#"><img class="img3" src="img/event/event2.jpeg" alt=""></a>
                     <p><span class="price">46€</span> - 2h20 - Concert-Conférence<br />"BEETHOVEN ET LE PIANO"<br />Par Pascale LANSQUET et Marie-Pierre BOUT<br /> MONTMIRAIL - 04/03/2017</p>
 
                 </div>
@@ -274,7 +306,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/event/event3.jpeg" alt="">
+                    <a href="#"><img class="img3" src="img/event/event3.jpeg" alt=""></a>
                     <p><span class="price">12€</span> - 1h20 - "LE CABARET BLANCHE" Thé&acirc;tre musical<br />LA FERTE BERNARD - 09/03/2017</p>
 
 
@@ -299,7 +331,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
 
 
-                    <img class="img4" src="img/sport/sp1.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/sport/sp1.1.jpg" alt=""></a>
                     <p><span class="price">13,50€</span> - Zoo de PESCHERAY<br />LE BREIL SUR MERIZE</p>
 
                 </div>
@@ -308,7 +340,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
 
 
-                    <img class="img4" src="img/sport/sp2.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/sport/sp2.1.jpg" alt=""></a>
                     <p><span class="price">34€</span> - 1 heure - VIBRAYE Equitation<br />VIBRAYE</p>
 
                 </div>
@@ -316,7 +348,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
 
 
-                    <img class="img4" src="img/sport/sp3.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/sport/sp3.1.jpg" alt=""></a>
                     <p><span class="price">18€</span> - 1h20 - Canoe Kayak Club Fertois<br />LA FERTE BERNARD</p>
 
                 </div>
@@ -324,7 +356,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
 
 
-                    <img class="img4" src="img/sport/sp4.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/sport/sp4.1.jpg" alt=""></a>
                     <p><span class="price">6€</span> - 1h15 - Le Museotrain<br />SEMUR EN VALLON</p>
 
 
@@ -349,7 +381,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
 
 
-                    <img class="img4" src="img/nature/nature1.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/nature/nature1.1.jpg" alt=""></a>
                     <p><span class="price">11€</span> - 1 heure<br />Les "Jardins du Manoir de Pontgirard"<br />MONCEAU</p>
 
                 </div>
@@ -358,7 +390,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
 
 
-                    <img class="img4" src="img/nature/nature2.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/nature/nature2.1.jpg" alt=""></a>
                     <p><span class="price">9€</span> - 1 heure<br />Jardin de la Bourdonnière<br />REVEILLON</p>
 
                 </div>
@@ -366,7 +398,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
 
 
-                    <img class="img4" src="img/nature/nature3.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/nature/nature3.1.jpg" alt=""></a>
                     <p><span class="price">10€</span> - 1 heure<br />Parc du Château de Lorière<br />LA ROUGE</p>
 
                 </div>
@@ -374,7 +406,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
 
 
-                    <img class="img4" src="img/nature/nature4.1.jpg" alt="">
+                    <a href="#"><img class="img4" src="img/nature/nature4.1.jpg" alt=""></a>
                     <p><span class="price">13€</span> - 1 heure<br />Jardin du Manoir des Perrignes<br />ST MAURICE SUR HUISNE</p>
 
                 </div>
@@ -399,7 +431,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/restauration/restauration1.jpg" alt="">
+                    <a href="#"><img class="img3" src="img/restauration/restauration1.jpg" alt=""></a>
                     <p>Hotel de la Forêt<br />SENONCHES</p>
 
                 </div>
@@ -407,7 +439,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/restauration/restauration2.jpg" alt="">
+                    <a href="#"><img class="img3" src="img/restauration/restauration2.jpg" alt=""></a>
                     <p>La Maison d'Horbé<br /> LA PERRIERE<br /></p>
 
                 </div>
@@ -415,7 +447,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4">
 
 
-                    <img class="img3" src="img/restauration/restauration3.jpg" alt="">
+                    <a href="#"><img class="img3" src="img/restauration/restauration3.jpg" alt=""></a>
                     <p>Le Montligeon<br /> LA CHAPELLE-MONTLIGEON</p>
 
                 </div>
@@ -512,32 +544,32 @@
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                         <h3>Perchebnb</h3>
                         <ul>
-                            <li>A propos</li>
-                            <li>Carrières</li>
-                            <li>Presse</li>
-                            <li>Règles</li>
-                            <li>Aide</li>
-                            <li>Diversité et intégration</li>
+                            <li><a href="#" class="lienbas">A propos</a></li>
+                            <li><a href="#" class="lienbas">Carrières</a></li>
+                            <li><a href="#" class="lienbas">Presse</a></li>
+                            <li><a href="#" class="lienbas">Règles</a></li>
+                            <li><a href="#" class="lienbas">Aide</a></li>
+                            <li><a href="#" class="lienbas">Diversité et intégration</a></li>
                         </ul>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                         <h3>Découvrir</h3>
                         <ul>
-                            <li>Confiance et sécurité</li>
-                            <li>Crédit voyage</li>
-                            <li>Airbnb citizen</li>
-                            <li>Voyage d'affaires</li>
-                            <li>Guides</li>
+                            <li><a href="#" class="lienbas">Confiance et sécurité</a></li>
+                            <li><a href="#" class="lienbas">Crédit voyage</a></li>
+                            <li><a href="#" class="lienbas">Airbnb citizen</a></li>
+                            <li><a href="#" class="lienbas">Voyage d'affaires</a></li>
+                            <li><a href="#" class="lienbas">Guides</a></li>
                         </ul>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                         <h3>Hébergement</h3>
                         <ul>
-                            <li>Pourquoi être hôte</li>
-                            <li>Hospitalité</li>
-                            <li>Hébergement responsable</li>
+                            <li><a href="#" class="lienbas">Pourquoi être hôte</a></li>
+                            <li><a href="#" class="lienbas">Hospitalité</a></li>
+                            <li><a href="#" class="lienbas">Hébergement responsable</a></li>
                         </ul>
                     </div>
             </div>
@@ -549,31 +581,27 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-xs-3 centre">
+                <div class="col-xs-3" id="copyright">
                     <p>Perchebnb, Inc. </p>
                 </div>
-                <div class="col-xs-9">
 
-                    <div class="col-xs-9 centre">
-                        <p>Conditions générales et confidentialité. Plan du site.</p>
-                    </div>
+
+                <div class="col-xs-6 col-md-6 centre">
+                    <p>Conditions générales et confidentialité. Plan du site.</p>
                     <!-- Picto lien réseaux sociaux? -->
-                    <div class=" pull-right">
-                        <div class="col-xs-1 stick">
-
-                            <a href="https://facebook.com"><img class="social" src="img/fb.svg" alt="picto facebook" /></a>
-                        </div>
-                        <div class="col-xs-1 stick">
-                            <a href="http://twitter.com"><img class="social" src="img/twitter.svg" alt="picto facebook" /></a>
-                        </div>
-                        <div class="col-xs-1 stick">
-                            <a href="http://instagram.com"><img class="social" src="img/insta.svg" alt="picto facebook" /></a>
-                        </div>
-                    </div>
                 </div>
-
-
+                <div class="col-xs-1 stick">
+                    <a href="https://facebook.com"><img class="social" src="img/fb.svg" alt="picto facebook" /></a>
+                </div>
+                <div class="col-xs-1 stick">
+                    <a href="http://twitter.com"><img class="social" src="img/twitter.svg" alt="picto facebook" /></a>
+                </div>
+                <div class="col-xs-1 stick">
+                    <a href="http://instagram.com"><img class="social" src="img/insta.svg" alt="picto facebook" /></a>
+                </div>
             </div>
+
+
         </div>
         </footer>
     </div>
