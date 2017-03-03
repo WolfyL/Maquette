@@ -52,12 +52,19 @@ footer{
     width: 600px;
     height: 625px;
     position: relative;
-    /*right: 20px;*/
-    /*width: 1000px!important;*/
     background-repeat: no-repeat;
-    /*border : green 5px solid;*/
     background-size: contain;
     right:-10px;
+}
+
+.tache{
+  background-image: url("img/footer.gif");
+  /*width: 650px;*/
+  height: 450px;
+  /*position: absolute;*/
+  background-repeat: no-repeat;
+  /*background-size: contain;*/
+  margin-top: 500px;
 }
 
 h2.fat {
