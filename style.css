@@ -1,0 +1,254 @@
+body {
+    color: #262626;
+    font-family: circular, sans-serif;
+}
+
+
+/*Styles textes*/
+
+h1 {
+    font-size: 48px;
+    color: #262626;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 18px;
+    padding: 20px 0px 18px 0px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 12px;
+    text-align: justify;
+    padding: 20px 10px 20px 10px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.soustitretof {
+    text-align: center;
+}
+
+.boldtitre {
+    color: green;
+    font-weight: bold;
+}
+
+#text-color a {
+    color: #262626;
+}
+
+.glyphicon.glyphicon-arrow-right {
+    font-size: 30px;
+}
+
+
+/*style images*/
+
+img {
+    display: block;
+    margin: auto;
+    border: white solid 5px;
+}
+
+.img3 {
+    height: 233px;
+    width: 350px;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.img4 {
+    height: 387px;
+    width: 259px;
+}
+
+.col-xs-1.fleche {
+    margin-right: 25px;
+}
+
+
+/*scrollable-menu raccourci la taille du menu et le rend scrollable.*/
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.inline ul li {
+    display: inline;
+    list-style: none;
+}
+
+.centre {
+    margin-top: 20px;
+}
+
+
+/*Style form*/
+
+.borderz {
+    border-style: solid;
+    border-color: #BDBDBD;
+    border-width: 1px;
+    box-shadow: -1px 2px 3px 0px lightgrey;
+}
+
+.resa {
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.form-control {
+    border: 0;
+    box-shadow: none;
+    border-bottom: solid green 1px;
+    margin-bottom: 5px;
+}
+
+
+/*Style pictos / elements graphiques*/
+
+.ligne {
+    height: 1px;
+    background-color: lightgrey;
+    margin-bottom: 50px;
+}
+
+.social {
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+}
+
+
+/*Style other*/
+
+.fond {
+    background-color: white;
+}
+
+.place {
+    padding-top: 69px;
+}
+
+
+/*#fix {
+    width: 500px;*/
+
+
+}
+.stick {
+    width: 30%;
+    /*#fakefooter {
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;*/
+}
+#copyright{
+  padding-top: 20px;
+}
+#searchbar {
+    display: none;
+}
+#size {
+    width: 50vw;
+}
+a.lienbas {
+    color: #262626;
+}
+.btn-custom {
+    background-color: hsl(99, 100%, 20%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#236600", endColorstr="#236600");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#236600), to(#236600));
+    background-image: -moz-linear-gradient(top, #236600, #236600);
+    background-image: -ms-linear-gradient(top, #236600, #236600);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #236600), color-stop(100%, #236600));
+    background-image: -webkit-linear-gradient(top, #236600, #236600);
+    background-image: -o-linear-gradient(top, #236600, #236600);
+    background-image: linear-gradient(#236600, #236600);
+    border-color: #236600 #236600 hsl(99, 100%, 20%);
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 62px;
+    position: absolute;
+    left: 30px;
+    height: 50px;
+    width: 150px;
+    padding-top: 15px;
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .social {
+    height: 30px;
+    width: 30px;
+  }
+
+  #size {
+    width: 30vw;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+
+  p {
+      font-size: 12px;
+      text-align: justify;
+      text-align-last: center;
+      padding: 20px 10px 20px 10px;
+  }
+
+  .social {
+      height: 30px;
+      width: 30px;
+  }
+
+  #size {
+    width: 25vw;
+  }
+
+
+
+}
+
+@media screen and (max-width: 842px)
+{
+
+  #size {
+    width: 30vw;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+  #size {
+    width: 20vw;
+  }
+}
