@@ -37,16 +37,11 @@ footer{
 }
 
 .middle {
-    /*background-image: url("img/middle.jpg");
-  background-repeat: no-repeat;
-  height: 1000px;
-  background-position: left;*/
-    /*background-size: cover;*/
-    /*background-repeat: repeat-y;*/
-    /*background-position: center;*/
-    /*border : blue 3px solid;*/
-}
+height: 1400px;
+position: relative;
+right: -30px;
 
+}
 .title {
     background-image: url("img/title.jpg");
     width: 600px;
@@ -58,13 +53,10 @@ footer{
 }
 
 .tache{
-  background-image: url("img/footer.gif");
-  /*width: 650px;*/
-  height: 450px;
-  /*position: absolute;*/
-  background-repeat: no-repeat;
-  /*background-size: contain;*/
-  margin-top: 500px;
+  width: 520px;
+  position: relative;
+  bottom: -237px;
+  right: -10px;
 }
 
 h2.fat {
