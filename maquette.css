@@ -4,9 +4,9 @@ body {
     background-size: contain;
 }
 
-footer{
-  font-size: 14px;
-  margin-left: 20px;
+footer {
+    font-size: 14px;
+    margin-left: 20px;
 }
 
 .container {
@@ -18,9 +18,9 @@ footer{
     font-size: 20px;
 }
 
-#placegauche{
-  margin-left: 20px;
-  margin-right: -20px;
+#placegauche {
+    margin-left: 20px;
+    margin-right: -20px;
 }
 
 .footer_paragraph {
@@ -37,11 +37,11 @@ footer{
 }
 
 .middle {
-height: 1400px;
-position: relative;
-right: -30px;
-
+    height: 1400px;
+    position: relative;
+    right: -30px;
 }
+
 .title {
     background-image: url("img/title.jpg");
     width: 600px;
@@ -49,14 +49,14 @@ right: -30px;
     position: relative;
     background-repeat: no-repeat;
     background-size: contain;
-    right:-10px;
+    right: -10px;
 }
 
-.tache{
-  width: 520px;
-  position: relative;
-  bottom: -237px;
-  right: -10px;
+.tache {
+    width: 520px;
+    position: relative;
+    bottom: -237px;
+    right: -10px;
 }
 
 h2.fat {
@@ -94,9 +94,9 @@ p {
     list-style-image: url(img/bullet.gif);
 }
 
-#whitestar li{
-  display: list-item;
-  list-style-image: url(img/whitestar.jpg);
+#whitestar li {
+    display: list-item;
+    list-style-image: url(img/whitestar.jpg);
 }
 
 #imggauche {
@@ -106,18 +106,17 @@ p {
     border: 2px solid yellow;
 }
 
-.specialtext{
-  font-size: 40px;
-  margin-left: 35px;
+.specialtext {
+    font-size: 40px;
+    margin-left: 35px;
 }
 
-.specialtexty{
-  font-size: 40px;
-  margin-left: 15px;
-  border-top: yellow 9px solid;
-  width: 390px;
+.specialtexty {
+    font-size: 40px;
+    margin-left: 15px;
+    border-top: yellow 9px solid;
+    width: 390px;
 }
-
 
 #imgdroite {
     float: right;
@@ -157,44 +156,46 @@ p {
     font-size: 14px;
 }
 
-.csssize{
-  font-size: 16px;
+.csssize {
+    font-size: 16px;
 }
 
-h1{
-  position: absolute;
-  right:130px;
-  top:90px;
-  font-size: 100px!important;
-  padding-bottom: 100px;
+h1 {
+    position: absolute;
+    right: 130px;
+    top: 90px;
+    font-size: 100px!important;
+    padding-bottom: 100px;
 }
 
-h5{
-  position: absolute;
-  right:100px;
-  top:170px;
-  font-size: 100px!important;
-  padding-bottom: 100px;
+h5 {
+    position: absolute;
+    right: 100px;
+    top: 170px;
+    font-size: 100px!important;
+    padding-bottom: 100px;
 }
 
-.contourjaune{
-  background-color: yellow;
-  color: #ec155b;
-  font-size: 20px;
-  width: 390px;
-  margin-left: 10px;
+.contourjaune {
+    background-color: yellow;
+    color: #ec155b;
+    font-size: 20px;
+    width: 390px;
+    margin-left: 10px;
 }
 
-.borderjaune{
-  border: 5px solid yellow;
-width: 390px;
-margin-top: -10px;
-margin-left: 10px;
-text-align: justify;
-padding-right: 10px;
-font-size: 20px;
-padding-left: 15px;
+.borderjaune {
+    border: 5px solid yellow;
+    width: 390px;
+    margin-top: -10px;
+    margin-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+    font-size: 20px;
+    padding-left: 15px;
 }
+
+
 /*
 .textsize{
   font-size: 20px;
